@@ -1,3 +1,7 @@
 import polydriver
 
-print(polydriver.sum_as_string(2,3))
+def poly_input(input: str) -> str:
+    return polydriver.py_to_poly(input)
+
+
+print(poly_input("test"))
